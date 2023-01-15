@@ -1,0 +1,433 @@
+header {
+    background: rgb(245, 244, 244);
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 30px 0;
+    box-shadow: 0px 0 18px rgb(55 66 59 / 8%);
+    position: fixed;
+    top: 0;
+     right: 0;
+    left: 0;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item a{
+  align-content: flex-end;
+  position: relative;
+  top: 0px;
+  bottom: 100px;
+  left: 750px;
+  right: 0px;
+    margin-left: 10px; 
+    border-radius: 3px;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 15px;
+    background: rgb(255, 254, 254);
+    font-weight: bold;
+    color: rgb(36, 34, 34);
+    text-decoration: none;
+}
+#head{
+  color: rgb(84, 201, 31);
+  margin-top: 10px;
+  position: fixed;
+  top: 0px;
+  bottom:100px;
+  left:5px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+#don{
+   position: relative;
+   top: 70px;
+   height: 600px;
+    background:rgba(22, 1, 1, 0.925);
+}
+#hero{
+    width:23%;
+    position: relative;
+    top: 100px;
+    height: 70%;
+    left: 25px;
+    border: 6px solid slategray;
+    
+
+}
+h1{
+    position: relative;
+    bottom: 350px;
+    left: 350px;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(86, 4, 219);
+    
+}
+h3{color: aqua;
+    position: relative;
+    left: 350px;
+    bottom: 370px;
+    font-size: 25px;
+}
+h2{ color: rgb(255, 61, 2);
+    position: relative;
+    left:350px;
+     bottom:320px;
+     font-size: 40px;
+}
+button{
+    height: 30px;
+    width: 200px;
+    color: blue;
+    background: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    left:350px ;
+    bottom: 380px;
+}
+#about{
+    background-color: rgba(4, 185, 230, 0.192);
+}
+#about img{
+    position: relative;
+    left: 20px;
+    width: 25%;
+    border: 8px solid sandybrown;
+    height: 20%;
+    top: 50px;
+}
+#about h1{
+    position: relative;
+      bottom: 500px;
+    left: 410px;
+    color: rgb(163, 228, 11);
+    font-weight: bold;
+}
+
+#about h3{
+    position: relative;
+    left: 410px;
+    bottom: 530px;
+    font-style: italic;
+    color: blue;
+}
+ .social{
+    width: 10%;
+    height: 40%;
+    position: relative;
+    bottom: 600px;
+    left:0px;
+    
+    }
+.logo a{
+    position:relative;
+    left: 600px;
+    bottom:540px;
+    
+}
+#ach{
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(246, 250, 246);
+    font-weight: bold;
+    position: relative;
+    right: 200px;
+    width: 440px;
+    height: 80px;
+    background-color: rgba(4, 4, 29, 0.74);
+}
+#kle{
+    background: rgba(111, 28, 170, 0.075);
+}
+#ql{
+    font-size: 80px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(16, 20, 0);
+    position: relative;
+    left: 500px;
+    top: -210px;
+}
+.imo h3 {
+    position: relative;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    color: rgb(252, 245, 245);
+    background-color: rgba(9, 119, 122, 0.986);
+
+}
+
+.hs{
+    width:400px;
+    height:400px;
+    background-color: rgb(160, 216, 6);
+    position: relative;
+    bottom: 350px;
+    left: 10px;
+    text-align:left;
+    border: 8px solid black;
+
+}
+.hs img{
+    height: 10%;
+    width: 10%;
+    position: relative;
+    top: 60px;
+    left: 180px;
+}
+
+.hs h3{   position: relative;
+    top:20px;
+    left:140px;
+    color: rgb(252, 244, 243);
+    font-size: 50px;
+}
+.hs h4{
+    position: relative;
+    top:-20px;
+    left: 65px;
+    font-size: 30px;
+}
+
+.sc{
+    width:400px;
+    height:400px;
+    background-color: rgb(230, 139, 139);
+    position: relative;
+    bottom: 223px;
+    left: 450px;
+    border: 8px solid black;
+
+}
+.sc img{
+  
+    height: 10%;
+    width: 10%;
+    position: relative;
+    top: 60px;
+    left: 180px;
+}
+
+.sc h3{
+    position: relative;
+    top:20px;
+    left:140px;
+    color: rgb(252, 244, 243);
+    font-size: 50px;
+}
+.sc h4{
+    position: relative;
+    top:-20px;
+    left: 65px;
+    font-size: 30px;
+}
+
+.gr{
+    width:400px;
+    height:400px;
+    background-color: rgb(160, 216, 6);
+    position: relative;
+    bottom: 528px;
+    left: 900px;
+    border: 8px solid black;
+
+}
+.gr img{
+    height: 10%;
+    width: 10%;
+    position: relative;
+    top: 60px;
+    left: 180px;
+}
+
+.gr h3{
+    position: relative;
+    top:20px;
+    left:160px;
+    color: rgb(252, 244, 243);
+    font-size: 50px;
+}
+.gr h4{
+    position: relative;
+    top:-20px;
+    left: 65px;
+    font-size: 30px;
+}
+/**skills**/
+#skills{
+   position: relative;
+   top:-10px;
+   background-color: rgba(201, 236, 245, 0.103);
+}
+.t{
+    position: relative;
+    top: 20px;
+    left: 550px;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(32, 1, 145, 0.795);
+    
+}
+.a{
+    position: relative;
+    top: -118px;
+    left: 540px;
+    width: 350px;
+    height: 60px;
+    color: blanchedalmond;
+    font-size: 40px;
+    text-align: center;
+    background: url(istockphoto-520700958-612x612.jpg);
+    border: 4px solid black;
+}
+
+.b{
+    position: relative;
+    top: -10px;
+    left: 40px;
+    width: 440px;
+    height: 60px;
+    color: blanchedalmond;
+    font-size: 40px;
+    text-align: center;
+    background: url(istockphoto-520700958-612x612.jpg);
+    border: 4px solid black;
+}
+
+.c{
+    position: relative;
+    top: -226px;
+    left: 950px;
+    width: 350px;
+    height: 60px;
+    color: blanchedalmond;
+    font-size: 40px;
+    text-align: center;
+    background: url(istockphoto-520700958-612x612.jpg);
+    border: 4px solid black;
+}
+.ts{
+    position: relative;
+    top:-230px;
+    left: 430px;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.m{
+    position: relative;
+    top: -226px;
+    left: 950px;
+    width: 350px;
+    height: 60px;
+    color: blanchedalmond;
+    font-size: 40px;
+    text-align: center;
+    background: url(istockphoto-520700958-612x612.jpg);
+    border: 4px solid black;
+}
+.n{
+    position: relative;
+    top: -328px;
+    left: 620px;
+    width: 250px;
+    height: 60px;
+    color: blanchedalmond;
+    font-size: 40px;
+    text-align: center;
+    background: url(istockphoto-520700958-612x612.jpg);
+    border: 4px solid black;
+}
+.o{
+    position: relative;
+    top: -428px;
+    left: 320px;
+    width: 250px;
+    height: 60px;
+    color: blanchedalmond;
+    font-size: 40px;
+    text-align: center;
+    background: url(istockphoto-520700958-612x612.jpg);
+    border: 4px solid black;
+
+}
+.p{
+    position: relative;
+    top: -529px;
+    left: 20px;
+    width: 250px;
+    height: 60px;
+    color: blanchedalmond;
+    font-size: 40px;
+    text-align: center;
+    background: url(istockphoto-520700958-612x612.jpg);
+    border: 4px solid black;
+
+}
+/**end-skills**/
+
+.con{
+    position: relative;
+    left: 480px;
+    color: rgb(42, 238, 3);
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.input-field{
+    width: 350px;
+    height: 30px;
+    position: relative;
+    right: -740px;
+    top: -350px;
+
+}
+.input-field1{
+    width: 350px;
+    height: 30px;
+    position: relative;
+    right:-380px;
+    top: -300px;
+}
+
+.input-field2{
+    width: 350px;
+    height: 30px;
+    position: relative;
+    right: -20px;
+    top: -250px;
+}
+.msg{
+    width: 450px;
+    height: 150px;
+    position: relative;
+    right: -750px;
+    top:-220px;
+}
+.btn{
+    position: relative;
+    top: -180px;
+    left: 300px;
+    background: rgba(7, 7, 7, 0.966);
+    color: aliceblue;
+    border: 4px solid rgb(11, 142, 243);
+}
+h4{
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    top: -600px;
+    color: rgb(7, 7, 7);
+    
+
+}
